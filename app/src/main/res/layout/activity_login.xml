@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/one"
+    android:background="@color/white"
     tools:context=".login">
 
     <ImageView
@@ -17,15 +17,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.167"
-        app:srcCompat="@drawable/logo_no_back" />
+        app:srcCompat="@drawable/logo_chat" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="233dp"
-        android:layout_height="127dp"
+        android:layout_width="297dp"
+        android:layout_height="89dp"
         android:fontFamily="@font/poppins_regular"
         android:gravity="center"
-        android:text="Login"
+        android:text="LOGIN"
         android:textColor="@color/black"
         android:textSize="@dimen/_62sdp"
         android:textStyle="bold"
@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
+        app:layout_constraintVertical_bias="0.362" />
 
     <TextView
         android:id="@+id/textView6"
@@ -50,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintVertical_bias="0.476" />
 
     <TextView
         android:id="@+id/textView7"
@@ -124,10 +124,11 @@
         android:id="@+id/logbutton"
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_45sdp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/brown_chat"
         android:text="Login"
         android:textSize="@dimen/_20sdp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.581"

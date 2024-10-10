@@ -9,15 +9,15 @@
 
     <ImageView
         android:id="@+id/logoimg"
-        android:layout_width="@dimen/_160sdp"
-        android:layout_height="@dimen/_84sdp"
+        android:layout_width="206dp"
+        android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414"
-        app:srcCompat="@drawable/av" />
+        app:srcCompat="@drawable/logo_chat" />
 
     <TextView
         android:id="@+id/logonameimg"
@@ -25,23 +25,23 @@
         android:layout_height="@dimen/_103sdp"
         android:fontFamily="@font/apptext"
         android:gravity="center"
-        android:text="A.VMessenger"
+        android:text="Built for today,Safe For Tommorrow"
         android:textColor="@color/black"
-        android:textSize="@dimen/_30sdp"
+        android:textSize="@dimen/_20sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.614" />
+        app:layout_constraintVertical_bias="0.651" />
 
     <TextView
         android:id="@+id/ownone"
-        android:layout_width="@dimen/_100sdp"
-        android:layout_height="@dimen/_25sdp"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
         android:fontFamily="@font/spartan_thin"
         android:gravity="center"
-        android:text="From"
+        android:text="A"
         android:textColor="@color/black"
         android:textSize="@dimen/_12sdp"
         android:textStyle="bold"
@@ -50,23 +50,23 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931" />
+        app:layout_constraintVertical_bias="0.829" />
 
     <TextView
         android:id="@+id/owntwo"
-        android:layout_width="@dimen/_200sdp"
-        android:layout_height="@dimen/_25sdp"
+        android:layout_width="284dp"
+        android:layout_height="66dp"
         android:fontFamily="@font/spartan_thin"
         android:gravity="center"
-        android:text="TechCoder A.V"
+        android:text="Secure Messaging Chat Application"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.582"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.977" />
+        app:layout_constraintVertical_bias="0.902" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

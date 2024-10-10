@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/two"
+    android:background="@color/white"
     tools:context=".registration">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -21,12 +21,13 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="@dimen/_215sdp"
-        android:layout_height="@dimen/_35sdp"
+        android:layout_width="387dp"
+        android:layout_height="57dp"
         android:fontFamily="@font/poppins_regular"
         android:gravity="center_vertical"
-        android:text="Create New "
-        android:textColor="@color/white"
+        android:text="Create New Account"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="@dimen/_26sdp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,23 +36,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.019" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="310dp"
-        android:layout_height="41dp"
-        android:fontFamily="@font/poppins_regular"
-        android:gravity="center_vertical"
-        android:text="Account"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_26sdp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.227"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084" />
 
     <TextView
         android:id="@+id/textView7"
@@ -177,7 +161,8 @@
         android:id="@+id/signupbutton"
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_45sdp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/brown_chat"
+        android:textColor="@color/white"
         android:text="signup"
         android:textSize="@dimen/_20sdp"
         android:textStyle="bold"
@@ -209,6 +194,7 @@
         android:ems="10"
         android:hint="UserName"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
         android:text=""
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
